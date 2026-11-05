@@ -1,0 +1,16 @@
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ */
+package Tugas10_Hilmi_Mufid_0046;
+
+/**
+ *
+ * @author Mufid21
+ */
+public class Elektronik implements Pembayaran {
+    @Override
+    public double hitungPajak(double harga) {
+        return harga * 0.10;
+    }
+}
